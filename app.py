@@ -145,7 +145,7 @@ if st.sidebar.button("Generate Recommendations"):
 import google.generativeai as genai  # Import Gemini API
 
 # Google Gemini API Key (Replace with your actual API key)
-GEMINI_API_KEY = "AIzaSyCC9iLnoGqHewI6rkWR51UHVFA1ROXxhCg"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Sidebar Chatbot Container
